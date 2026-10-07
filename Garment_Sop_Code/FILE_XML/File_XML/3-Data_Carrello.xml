@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE RECORD_ARTICOLO SYSTEM "http://localhost/php_program/GameOfHistory/XML%20_FILE/DTD_SCHEMA/ARTICOLO_STRUTTURA.dtd">
+
+
+
+<!-- da riempire || mettere la directory giusta  -->
+
+<Lista_Carrelli>
+  <Carrello Carrello_ID="..." Cliente_ID="" >
+  
+  <Articolo_ID>... </Articolo_ID>
+  <Articolo_ID>... </Articolo_ID>
+  <Articolo_ID>... </Articolo_ID>
+
+  </Carrello>
+
+
+  <Carrello  Carrello_ID="..." Cliente_ID="">
+  
+  <Articolo_ID> </Articolo_ID>
+  <Articolo_ID> </Articolo_ID>
+  <Articolo_ID> </Articolo_ID>
+  <Articolo_ID> </Articolo_ID>
+  <Articolo_ID> </Articolo_ID>
+  <Articolo_ID> </Articolo_ID>
+
+  <Carrello>
+
+
+ <Carrello  Carrello_ID="..." Cliente_ID="">
+
+<Articolo_ID> </Articolo_ID>
+<Articolo_ID> </Articolo_ID>
+<Articolo_ID> </Articolo_ID>
+<Articolo_ID> </Articolo_ID>
+
+  </Carrello>
+
+
+  <Carrello  Carrello_ID="..." Cliente_ID="">
+
+  <Articolo_ID> </Articolo_ID>
+  <Articolo_ID> </Articolo_ID>
+  <Articolo_ID> </Articolo_ID>
+
+  </Carrello>
+
+
+  <Carrello>
+  </Carrello>
+
+</Lista_Carrelli>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE RECORD_ARTICOLO SYSTEM "http://localhost/php_program/GameOfHistory/XML%20_FILE/DTD_SCHEMA/ARTICOLO_STRUTTURA.dtd">
+
+
+
+<!-- da riempire || mettere la directory giusta  -->
+<FAQ>
+ 
+ <Dubbi dubbi_ID="...">
+    <domanda Cliente_ID="..." >...</doamnda>
+    <risposta Gestore_ID="..." > ...</risposta>
+  </Dubbi>
+ 
+ <Dubbi dubbi_ID="...">
+    <domanda Cliente_ID="..." >...</doamnda>
+    <risposta Gestore_ID="..." > ...</risposta>
+  </Dubbi>
+ 
+ <Dubbi dubbi_ID="...">
+    <domanda Cliente_ID="..." >...</doamnda>
+    <risposta Gestore_ID="..." > ...</risposta>
+  </Dubbi>
+ 
+ <Dubbi dubbi_ID="...">
+    <domanda Cliente_ID="..." >...</doamnda>
+    <risposta Gestore_ID="..." > ...</risposta>
+  </Dubbi>
+ 
+ <Dubbi dubbi_ID="...">
+    <domanda Cliente_ID="..." >...</doamnda>
+    <risposta Gestore_ID="..." > ...</risposta>
+  </Dubbi>
+ 
+ <Dubbi dubbi_ID="...">
+    <domanda Cliente_ID="..." >...</doamnda>
+    <risposta Gestore_ID="..." > ...</risposta>
+  </Dubbi> 
+
+ <Dubbi dubbi_ID="...">
+    <domanda Cliente_ID="..." >...</doamnda>
+    <risposta Gestore_ID="..." > ...</risposta>
+  </Dubbi>
+
+
+</FAQ>

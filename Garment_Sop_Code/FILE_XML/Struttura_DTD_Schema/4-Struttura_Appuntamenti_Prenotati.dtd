@@ -1,0 +1,12 @@
+<?xml versione="1.0" encoding="UTF-08"?>
+
+<!ELEMENT Lista_prenotazioni(Appuntamenti*)>
+    <!ELEMENT  Appuntamenti(prenotati*)> 
+    
+<!ATTLIST  Appuntamenti
+                        Appuntamenti_ID #REQUIRED
+                        Cliente_ID IDREF #REQUIRED
+                       >
+ <!ATTLIST  prenotato 
+                    Data_ID IDREF #REQUIRED
+                       >

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE RECORD_ARTICOLO SYSTEM "http://localhost/php_program/GameOfHistory/XML%20_FILE/DTD_SCHEMA/ARTICOLO_STRUTTURA.dtd">
+
+
+
+<!-- da riempire || mettere la directory giusta  -->
+
+<Lista_prenotazioni>
+ <appuntamenti Appuntamenti_ID="..." Cliente_ID="...">
+  <prenotato Data_ID="..."> </prenotato>
+  <prenotato Data_ID="..."> </prenotato>
+  <prenotato Data_ID="..."> </prenotato>
+</appuntamenti>
+
+ <appuntamenti Appuntamenti_ID="..." Cliente_ID="...">
+  <prenotato Data_ID="..."> </prenotato>
+  <prenotato Data_ID="..."> </prenotato>
+  <prenotato Data_ID="..."> </prenotato>
+</appuntamenti>
+
+
+ <appuntamenti Appuntamenti_ID="..." Cliente_ID="...">
+  <prenotato Data_ID="..."> </prenotato>
+  <prenotato Data_ID="..."> </prenotato>
+  <prenotato Data_ID="..."> </prenotato>
+  <prenotato Data_ID="..."> </prenotato>
+  <prenotato Data_ID="..."> </prenotato>
+  <prenotato Data_ID="..."> </prenotato>
+  <prenotato Data_ID="..."> </prenotato>
+  <prenotato Data_ID="..."> </prenotato>
+</appuntamenti>
+
+
+ <appuntamenti Appuntamenti_ID="..." Cliente_ID="...">
+  <prenotato Data_ID="..."> </prenotato>
+  <prenotato Data_ID="..."> </prenotato>
+  <prenotato Data_ID="..."> </prenotato>
+</appuntamenti>
+
+
+ <appuntamenti Appuntamenti_ID="..." Cliente_ID="...">
+  <prenotato Data_ID="..."> </prenotato>
+  <prenotato Data_ID="..."> </prenotato>
+</appuntamenti>
+
+
+ <appuntamenti Appuntamenti_ID="..." Cliente_ID="...">
+ </appuntamenti>
+
+</Lista_prenotazioni>

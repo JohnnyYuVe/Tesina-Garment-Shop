@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE RECORD_ARTICOLO SYSTEM "http://localhost/php_program/GameOfHistory/XML%20_FILE/DTD_SCHEMA/ARTICOLO_STRUTTURA.dtd">
+
+<!-- da riempire || mettere la directory giusta  -->
+<Account>
+
+  <Utente Account_ID="...">
+  
+   <Credenziali>
+     <Nome>...</Nome>
+     <Cognome>...</Cognome>
+     <C_F> </C_F>
+     <Email><Email>
+     <Username></Username>
+     <Password></Password>
+     <Indirizzo></Indirizzo>
+   </Credenziali>
+  
+ <Misure_corpo>
+       <Circ_collo>...</Circ_collo>
+      <Circ_torace>...</Circ_torace>
+      <Circ_fianchi>...</Circ_fianchi>
+      <Circ_bicipite>...</Circ_bicipite> 
+      <Circ_polso>...</Circ_polso> 
+      <Circ_coscia>....</Circ_coscia>
+      <Altezza>...</Altezza>
+      <Lung_spalla>...</Lung_spalla>
+      <Lung_manica>...</Lung_manica>
+      <Lung_gamba>...</Lung_gamba> 
+      <Cavallo> ...</Cavallo>
+      <Larg_spalla>...</Larg_spalla>
+
+  </Misure_corpo>
+  
+  <Info_account>
+       <Account_liv>...</Account_liv>
+       <Account_exp>... </Account_exp>
+       <Account_crediti>...</Account_crediti>
+  </Info_account>
+  <Utente>
+
+<Utente Account_ID="...">
+  
+   <Credenziali>
+     <Nome>...</Nome>
+     <Cognome>...</Cognome>
+     <C_F> </C_F>
+     <Email><Email>
+     <Username></Username>
+     <Password></Password>
+     <Indirizzo></Indirizzo>
+   </Credenziali>
+  
+ <Misure_corpo>
+       <Circ_collo>...</Circ_collo>
+      <Circ_torace>...</Circ_torace>
+      <Circ_fianchi>...</Circ_fianchi>
+      <Circ_bicipite>...</Circ_bicipite> 
+      <Circ_polso>...</Circ_polso> 
+      <Circ_coscia>....</Circ_coscia>
+      <Altezza>...</Altezza>
+      <Lung_spalla>...</Lung_spalla>
+      <Lung_manica>...</Lung_manica>
+      <Lung_gamba>...</Lung_gamba> 
+      <Cavallo> ...</Cavallo>
+      <Larg_spalla>...</Larg_spalla>
+
+  </Misure_corpo>
+  
+  <Info_account>
+       <Account_liv>...</Account_liv>
+       <Account_exp>... </Account_exp>
+       <Account_crediti>...</Account_crediti>
+  </Info_account>
+  <Utente>
+
+</Account>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE RECORD_ARTICOLO SYSTEM "http://localhost/php_program/GameOfHistory/XML%20_FILE/DTD_SCHEMA/ARTICOLO_STRUTTURA.dtd">
+
+
+
+<!-- da riempire || mettere la directory giusta  -->
+
+<Storico_Acquistii>
+  <Acquisto Acquisto_ID="..." 
+Cliente_ID="...">
+   <Articolo_ID>...</Articolo_ID>
+   <Articolo_ID>...</Articolo_ID>
+   <Articolo_ID>...</Articolo_ID>
+ </Acquisto>
+ 
+  <Acquisto Acquisto_ID="..." 
+Cliente_ID="...">
+   <Articolo_ID>...</Articolo_ID>
+   <Articolo_ID>...</Articolo_ID>
+   <Articolo_ID>...</Articolo_ID>
+ </Acquisto>
+
+  <Acquisto Acquisto_ID="..."  Cliente_ID="...">
+   <Articolo_ID>...</Articolo_ID>
+   <Articolo_ID>... </Articolo_ID>
+   <Articolo_ID>... </Articolo_ID>
+ </Acquisto>
+
+  <Acquisto Acquisto_ID="..." 
+Cliente_ID="...">
+   <Articolo_ID>...</Articolo_ID>
+   <Articolo_ID>... </Articolo_ID>
+   <Articolo_ID>... </Articolo_ID>
+ </Acquisto>
+
+  <Acquisto Acquisto_ID="..." 
+Cliente_ID="...">
+   <Articolo_ID>...</Articolo_ID>
+   <Articolo_ID>... </Articolo_ID>
+   <Articolo_ID>... </Articolo_ID>
+ </Acquisto>
+
+</Storico_Acquisti>

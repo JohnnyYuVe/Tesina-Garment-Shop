@@ -1,0 +1,12 @@
+<?xml versione="1.0" encoding="UTF-08"?>
+
+<?xml versione="1.0" encoding="UTF-08"?>
+
+<!ELEMENT Lista_Apputamenti(Data*)>
+    <!ELEMENT  Data(GG,MM,AAAA)> 
+    <!ATTLIST Data
+                        Data_ID #REQUIRED
+                        >
+    <!ELEMENT  GG(#PCDATA)>
+    <!ELEMENT  MM(#PCDATA)> 
+    <!ELEMENT  AAAA(#PCDATA)>
