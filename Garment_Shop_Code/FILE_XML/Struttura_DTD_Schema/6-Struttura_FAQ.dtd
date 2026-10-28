@@ -1,0 +1,19 @@
+<?xml versione="1.0" encoding="UTF-08"?>
+
+<!ELEMENT Lista_FAQ(dubbi*)>
+    <!ELEMENT dubbi(Domanda, Risposta)> 
+    
+<!ATTLIST dubbi
+                        dubbi_ID ID #REQUIRED
+                        >
+
+<!ATTLIST Domanda 
+                       Cliente_ID IDREF #REQUIRED
+                       >
+
+<!ATTLIST  Risposta
+                        Gestore_ID IDREF #REQUIRED
+                        >
+
+<!ELEMENT  Domanda(#PCDATA)>
+<!ELEMENT  Risposta(#PCDATA)>

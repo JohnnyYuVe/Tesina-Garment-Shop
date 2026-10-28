@@ -1,0 +1,36 @@
+<?xml versione="1.0" encoding="UTF-08"?>
+
+<!ELEMENT Account(Utente*)>
+    <!ELEMENT  Utente(Credenziali ,Misure_corpo ,Info_account )> 
+    <!ATTLIST Utente
+                        Account_ID #REQUIRED> 
+    <!ELEMENT Credenziali(Nome, Cognome, C_F, Email, Username, Password,Indirizzo)>
+    <!ELEMENT Nome(#PCDATA)> 
+    <!ELEMENT Cognome(#PCDATA)>
+    <!ELEMENT C_F(#PCDATA)>
+    <!ELEMENT Email(#PCDATA)>
+    <!ELEMENT Username(#PCDATA)>
+    <!ELEMENT Password(#PCDATA)> 
+    <!ELEMENT Indirizzo((#PCDATA))>
+  
+    <!ELEMENT Misure_corpo(Circ_collo, Circ_torace, Circ_fianchi, Circ_bicipite, Circ_polso, 
+Circ_coscia, Altezza, Lung_spalla, Lung_manica, Lung_gamba, Cavallo, Larg_spalla )> 
+      <!ELEMENT Circ_collo(#PCDATA)>
+      <!ELEMENT Circ_torace(#PCDATA)>
+      <!ELEMENT Circ_fianchi(#PCDATA)>
+      <!ELEMENT Circ_bicipite(#PCDATA)>
+      <!ELEMENT Circ_polso(#PCDATA)> 
+      <!ELEMENT Circ_coscia(#PCDATA)>
+      <!ELEMENT Altezza (#PCDATA)>
+      <!ELEMENT Lung(#PCDATA)>
+      <!ELEMENT Lung_spalla(#PCDATA)>
+      <!ELEMENT Lung_manica(#PCDATA)>
+      <!ELEMENT Lung_gamba(#PCDATA)> 
+      <!ELEMENT Cavallo(#PCDATA)>
+      <!ELEMENT Larg_spalla(#PCDATA)> 
+    
+     <!ELEMENT Info_account(Account_liv, Account_exp, Account_crediti)>
+       <!ELEMENT Account_liv(#PCDATA)>
+       <!ELEMENT Account_exp(#PCDATA)> 
+       <!ELEMENT Account_crediti(#PCDATA)>
+       

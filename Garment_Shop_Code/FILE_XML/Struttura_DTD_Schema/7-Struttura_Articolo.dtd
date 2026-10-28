@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Lista_Articoli (Articolo*)>
+<!ELEMENT Articolo (Nome, Prezzo, Categoria, Foto, Sconto, Descrizione)> 
+
+<!ATTLIST Articolo Articolo_ID CDATA #REQUIRED>
+
+    <!ELEMENT Nome (#PCDATA)> 
+<!ELEMENT Prezzo (#PCDATA)> 
+<!ELEMENT Categoria (#PCDATA)> 
+<!ELEMENT Foto (#PCDATA)> 
+<!ELEMENT Sconto (#PCDATA)> 
+<!ELEMENT Descrizione (#PCDATA)>

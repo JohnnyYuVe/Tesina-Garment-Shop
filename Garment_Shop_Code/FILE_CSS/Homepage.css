@@ -1,0 +1,346 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.Nav_Container{ 
+           display:flex;
+           position:fixed;
+           top:0;
+           left:0;
+           width:100%;
+           z-index:1;
+}
+
+
+
+
+.Nav_Links{
+        display:flex;
+        margin-left:auto;   
+}
+
+
+
+
+.Button_Style{
+            border:10px;
+            display:inline-block;
+            margin: 10px;
+            padding:10px 10px;
+            vertical-align:middle;
+            overflow:hidden;
+            color:#A24857;
+            text-align:center;
+            text-decoration: none;
+            cursor:pointer;
+            white-space:nowrap;
+            width:auto;
+            
+            white-space:normal;
+            text-align:start;
+
+            background: rgb(0 0 0 / 60%);
+            border-radius: 20px ;
+            border: 3px solid black;
+
+}
+
+
+
+
+.Button_POS_left{
+            margin-left:auto;
+}
+
+
+
+
+.Main_layout{
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             gap:100px;
+             width: 100%;
+             
+}
+
+
+
+.Text_Content{
+            flex-shrink: 0;
+            max-width: 320px;
+            font-size: 50px;
+            padding-left:30px ;
+}
+
+
+
+
+.HOT_ITEM_Container{
+                display: flex;
+                position: relative;
+                flex-wrap: no wrap;
+                align-items: center;
+                flex-grow: 1;
+                gap: 30px;
+                overflow-x:auto;
+                max-width: auto;
+                height: 400px;
+                width: auto;
+                margin-top: 20px;
+                margin-bottom:20px;
+                scroll-behavior: smooth;
+                padding: 15px;
+}
+
+ .scroll-wrapper {
+            
+            width: 80%;
+            max-width: 800px;
+            display: flex;
+            
+        }
+
+
+
+
+.Box_Item{  
+            flex-shrink: 0;
+            flex-basis: 300px;
+            height: 250px;
+            width: 300px;
+
+            border-radius: 10px;
+            
+            margin-bottom: 25px ;
+            box-shadow: 0 4px 20px 0 rgba(0, 0, 0 , 0.2) rgba(0, 0, 0 , 0.19);
+            
+            margin-top:35px;
+            
+}
+
+
+
+.element::-webkit-scrollbar{
+                        /* per rimuovere lo scroll bar da firefox e edge
+                        -ms-overflow-style: none; 
+                        scrollbar-width: none;
+                        */
+                        display: none;
+}
+
+
+.Nav_Button {
+            position: absolute;
+            background-color: white;
+            border: 1px solid #e5e7eb;
+
+            color: #1f2937;
+            width: 50px;
+            height: 50px;
+            border-radius: 10%;
+            border: 2px solid black;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.25rem;
+            font-weight: bold;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            z-index: 10;
+            transition: background-color 0.2s, transform 0.2s;
+        }
+
+.Nav_Button:hover {
+            background-color: #f9fafb;
+            transform: scale(1.05);
+}
+
+.Nav_Button:active {
+            transform: scale(0.95);
+}
+
+.Left_Button {
+            left: 450px;
+}
+
+.Right_Button {
+            right: 10px;
+}
+
+
+
+.Text_box{
+        font-size: 30px;
+        text-align: center;
+        
+        
+}
+
+
+
+
+.Box_Item img{
+            width: 100%;
+            border-radius: 10px;
+            height:inherit ;
+            object-fit: cover;
+
+            
+}
+
+
+
+
+.text_position{
+                
+            justify-content: flex-start;
+            align-items: center ;
+            font-size: 30px;
+            
+
+}
+
+
+
+
+.Grid_Container{
+                  display: grid;
+                  position: relative;
+                  grid-template-columns: 1fr;
+                  grid-template-rows: 90vh;
+                  background-color: red; 
+
+}
+
+
+
+
+.Grid_item{
+        	background-color: #6F4E37;       
+            color: black;
+            font-size: 30px;
+            font-weight: bold;
+            
+            border-radius: 20px ;
+            margin: 0px;
+            padding: 0px;
+            height: 100px;
+            grid-column: 1 / -1; 
+}     
+
+
+
+
+.IMG_Container{
+                display: block;
+                position: relative;
+                
+                height:1fr;
+                width: 100%;
+                background-color: red;
+}
+
+
+
+
+.Img_BG{
+    height: 1fr;
+    width: 100%;
+    background-size: cover;
+    object-fit: fill;
+}
+
+
+
+
+.text_overlay_TOP_LEFT{
+                    position: absolute;
+                    display: flex;
+                    top: -1%;
+                    left: 0%;
+                    justify-content: center;
+                    align-items: center ;
+                    font-size: 110PX;
+                    color: #C32148;
+}
+
+
+
+
+.text_overlay_TOP_LEFT1{
+                    position: absolute;
+                    display: flex;
+                    top: 20%;
+                    left: 0%;
+                    justify-content: center;
+                    align-items: center ;
+                    font-size: 40PX;
+                    color: #C32148;
+}
+
+
+
+
+.text_overlay_BOTTOM_LEFT{
+                        position: absolute;
+                        bottom:0%;
+                        left: 0;
+                        font-size: 100PX;
+                        color: #C32148;
+}
+
+
+
+
+.text_overlay_BOTTOM_LEFT1{
+                        position: absolute;
+                        bottom:0%;
+                        left: 0;
+                        font-size: 50PX;
+                        color: #C32148;
+}
+
+
+
+
+.bungee-regular {
+              font-family: "Bungee", sans-serif;
+              font-weight: 400;
+              font-style: normal;
+}
+
+
+
+
+.Nav_Links.Icon_size{
+                font-size:80px;
+}
+
+
+
+
+.opacity_min{
+        opacity:0.95;
+}
+
+
+
+
+.material-symbols-outlined {
+                        font-variation-settings:
+                            'FILL' 0,
+                            'wght' 700,
+                            'GRAD' 10,
+                            'opsz' 70
+                        ;
+}
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+<?xml versione="1.0" encoding="UTF-08"?>
+
+<!ELEMENT Lista_Carrelli(Carrello*)>
+    <!ELEMENT  Carrello(Articolo_ID)> 
+    <!ATTLIST Carrello
+                        Carrello_ID #REQUIRED
+                        Cliente_ID IDREF #IMPLIED
+                        >
+
+    <!ELEMENT Articolo_ID (#PCDATA)> 
+    

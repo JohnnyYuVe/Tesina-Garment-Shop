@@ -1,0 +1,49 @@
+Per inizializzare un git repostery locale bisognerà:
+
+1- localizzare la cartella nella quale si vuole posizionare il repostery locale (preferibilmente dove verrà svolto il progetto, in particolare alla radice della cartella e non nelle sotto cartelle).
+
+2- individuato la cartella andare nella CLI e bisognerà recarsi nella directory nella quale si vuole creare il repostery locale.
+
+3- dare il seguente comando -> "git init"  (tale comando inizializzerà la struttura locale del nostro git)
+
+una volta che abbiamo creato il git locale, potremmo iniziare a lavorare al nostro progetto e creare i file su cui lavorare
+
+4- per vedere se sono stati apportati delle modifiche ai file a cui stiamo lavorando basterà dare il comando-> "git status"
+
+A questo punto diciamo che abbiamo scritto abbastanza codice e vogliamo sincronizzare il nostro repostery locale con quello "online" in modo tale da far visionare ai nostri colleghi i progressi che abbiamo fatto fino ad adesso.
+per far ciò ci sono due passaggi da fare:
+
+
+
+-----------PREPARAZIONE DEI FILE DA INOLTRARE AL REPOSTERY ONLINE(GITHUB)-----------
+
+1-A) bisogna preparare il Commit, ovvero selezionare i file che si vogliono inoltrare al repostery online e lo si fa dando questo comando -> "git add ." questo comando aggiungerà tutti i file che trova nelle varie sottocartelle, mantenedo la struttura di essa.		
+
+se si vuole aggiungere un piccolo commento insieme al commit basterà dare il seguente comando-> (git commit -	m"inserisci il tuo commento qui")
+
+
+-----------Creazione repostery online (github)-----------
+
+vai su 	https://github.com effettua l'accesso e inzia con il creare il tuo repostery seguendo le istruzione che vedi nella pagina una volta fatto vai al punto successivo
+
+
+
+
+
+-----------Collegamento repostery locale con github--------
+
+dalla CLI del tuo pc dai i seguenti comandi -> "git remote add origin REMOTE-URL"  //REMOTE_URL lo trovi nella pagina di github una volta che hai creato il repostery
+                                               "git remote -v"                     // per verificare se l'url dato è corretto
+
+questi due comandi di setup vanno dati solo per la prima volta !
+
+					       "git push origin main"              //ultimo passaggio per inoltrare tutti i file aggiunti durante il passaggio di commit.
+
+
+
+
+
+
+a questo punto i passaggi che saranno ripetuti iterativamente sono il commit, ovvero "preparare i file da inoltrare a github" e infine mandarli a github mediante l'ultimo comando mostrato ovvero "git push origin main".
+ 
+

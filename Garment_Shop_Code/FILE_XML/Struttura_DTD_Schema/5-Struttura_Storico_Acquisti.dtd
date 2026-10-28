@@ -1,0 +1,10 @@
+<?xml versione="1.0" encoding="UTF-08"?>
+
+<!ELEMENT Storico_Acquisti(acquisto*)>
+    <!ELEMENT  Acquisto(Articolo_ID*)> 
+    <!ATTLIST Acquisto
+                        storico_ID #REQUIRED
+                        Cliente_ID IDREF #IMPLIED
+                       >
+
+    <!ELEMENT Articolo_ID (#PCDATA)> 

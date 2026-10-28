@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE RECORD_ARTICOLO SYSTEM "http://localhost/php_program/GameOfHistory/XML%20_FILE/DTD_SCHEMA/ARTICOLO_STRUTTURA.dtd">
+
+
+
+<!-- da riempire || mettere la directory giusta  -->
+
+<Lista_Appuntamenti>
+  
+ <Data Data_ID="">
+   <GG>...</GG>
+   <MM>...</MM>
+   <AAAA>...</AAAA>
+  </Data>
+  
+ <Data Data_ID="">
+   <GG>...</GG>
+   <MM>...</MM>
+   <AAAA>...</AAAA>
+  </Data>
+  
+ <Data Data_ID="">
+   <GG>...</GG>
+   <MM>...</MM>
+   <AAAA>...</AAAA>
+  </Data>
+  
+ <Data Data_ID="">
+   <GG>...</GG>
+   <MM>...</MM>
+   <AAAA>...</AAAA>
+  </Data>
+  
+ <Data Data_ID="">
+   <GG>...</GG>
+   <MM>...</MM>
+   <AAAA>...</AAAA>
+  </Data>
+
+ <Data Data_ID="">
+   <GG>...</GG>
+   <MM>...</MM>
+   <AAAA>...</AAAA>
+  </Data>
+
+
+
+</Lista_Appuntamenti>

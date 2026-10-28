@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE RECORD_ARTICOLO SYSTEM "http://localhost/php_program/GameOfHistory/XML%20_FILE/DTD_SCHEMA/ARTICOLO_STRUTTURA.dtd">
+
+
+
+<!-- da riempire || mettere la directory giusta  -->
+
+<Lista_Articoli>
+                       <articolo Articolo_ID="...">
+                           <Nome>...</Nome>
+                           <prezzo>...</prezzo>
+                           <categoria>...</categoria>
+                           <descrizione>...</descrizione>
+                           <sconto>... </sconto> 
+                           <foto></foto>
+                        </articolo>
+
+                       <articolo Articolo_ID="...">
+                           <Nome>...</Nome>
+                           <prezzo>...</prezzo>
+                           <categoria>...</categoria>
+                           <descrizione>...</descrizione>
+                           <sconto>... </sconto> 
+                           <foto></foto>
+                        </articolo>
+
+                       <articolo Articolo_ID="...">
+                           <Nome>...</Nome>
+                           <prezzo>...</prezzo>
+                           <categoria>...</categoria>
+                           <descrizione>...</descrizione>
+                           <sconto>... </sconto> 
+                           <foto></foto>
+                        </articolo>
+
+
+                       <articolo Articolo_ID="...">
+                           <Nome>...</Nome>
+                           <prezzo>...</prezzo>
+                           <categoria>...</categoria>
+                           <descrizione>...</descrizione>
+                           <sconto>... </sconto> 
+                           <foto></foto>
+                        </articolo>
+</Lista_Articoli>

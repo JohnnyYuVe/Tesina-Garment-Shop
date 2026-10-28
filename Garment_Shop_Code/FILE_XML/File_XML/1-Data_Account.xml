@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Account SYSTEM "http://localhost/php_program/GarmentShop/Garment_Shop_Code/FILE_XML/Struttura_DTD_Schema/1-Struttura_Account.dtd">
+
+<!-- da popolare -->
+<Account>
+
+    <Utente Account_ID="1">
+  
+        <Credenziali>
+            <Nome>John Veneth</Nome>
+            <Cognome>Yu</Cognome>
+            <C_F>ok</C_F>
+            <Email>gfdgsgdgs</Email>
+            <Username>USER</Username>
+            <Password>password</Password>
+            <Indirizzo>corso della repubblica</Indirizzo>
+        </Credenziali>
+        <Misure_corpo>
+                <Circ_collo> 10</Circ_collo>
+                <Circ_torace> 20</Circ_torace>
+                <Circ_fianchi> 30</Circ_fianchi>
+                <Circ_bicipite> 40</Circ_bicipite> 
+                <Circ_polso> 60</Circ_polso> 
+                <Circ_coscia> 70</Circ_coscia>
+                <Altezza> 80</Altezza>
+                <Lung_spalla> 90</Lung_spalla>
+                <Lung_manica> 100 </Lung_manica>
+                <Lung_gamba> 110 </Lung_gamba> 
+                <Cavallo> 120 </Cavallo>
+                <Larg_spalla> 130 </Larg_spalla>
+
+        </Misure_corpo>
+          
+        <Info_account>
+            <Account_liv>0</Account_liv>
+            <Account_exp>0 </Account_exp>
+            <Account_crediti>0</Account_crediti>
+        </Info_account>
+</Utente>
+
+
+
+<Utente Account_ID="2">
+  
+   <Credenziali>
+     <Nome>ven</Nome>
+     <Cognome>yu</Cognome>
+     <C_F> kk</C_F>
+     <Email>kkkk</Email>
+     <Username>USER2</Username>
+     <Password>1234</Password>
+     <Indirizzo>CORSO DELLA REPUBBLICA</Indirizzo>
+   </Credenziali>
+  
+ <Misure_corpo>
+       <Circ_collo> 10 </Circ_collo>
+      <Circ_torace> 20 </Circ_torace>
+      <Circ_fianchi> 30 </Circ_fianchi>
+      <Circ_bicipite> 40 </Circ_bicipite> 
+      <Circ_polso> 50 </Circ_polso> 
+      <Circ_coscia> 60 </Circ_coscia>
+      <Altezza> 70 </Altezza>
+      <Lung_spalla> 80 </Lung_spalla>
+      <Lung_manica> 90 </Lung_manica>
+      <Lung_gamba> 100 </Lung_gamba> 
+      <Cavallo> 120 </Cavallo>
+      <Larg_spalla> 130 </Larg_spalla>
+
+  </Misure_corpo>
+  
+  <Info_account>
+       <Account_liv>0</Account_liv>
+       <Account_exp>0</Account_exp>
+       <Account_crediti>0</Account_crediti>
+  </Info_account>
+  </Utente>
+
+</Account>

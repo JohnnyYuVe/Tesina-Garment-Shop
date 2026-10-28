@@ -1,0 +1,134 @@
+body {
+      background-image: url("http://localhost/php_program/GarmentShop/Garment_Shop_Code/FILE_IMG/Img_2.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+
+      font-family: "Arial", sans-serif;
+}
+
+.Grid_Container{
+                  display: grid;                
+                  grid-template-columns: 1fr;
+                  grid-template-rows: 90vh;
+            /* questi due campi minimizzano lo spazio utilizzato dei box*/
+                  justify-items:center ;
+                  align-items:center ;          
+                  
+                  
+                 
+                         
+                
+}
+
+
+.Grid_item{
+            background-color: #6F4E37;
+            display: grid;
+            place-items: center;
+            color: black;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            border: 7px solid black;
+            border-radius: 20px ;
+            margin: 0px;
+            padding: 0px;
+            height: 700px;
+            width:700px;
+
+            
+
+
+}     
+
+.Button-log{
+            padding:10px ;
+            border: 3px solid black ;
+            outline:none ;
+            color: black;
+            cursor: ;
+            border-radius: 12px ;
+            width:200px;
+            height: 60px;
+            text-align: center;   
+}
+
+.Button-home{
+            padding:10px ;
+            border: 3px solid black ;
+            outline:none ;
+            color: black;
+            cursor: ;
+            border-radius: 12px ;
+            width:100px;
+            height: 100px;
+            text-align: center; 
+}
+
+.Txt-box-style1{
+                  padding:10px ;
+                  border: 5px solid black ;
+                  outline:none ;
+                  color: black;
+                  cursor: ;
+                  border-radius: 12px ;
+                  width:300px;
+                  height: 60px;
+                  text-align: center;
+                  font-size: 20px;
+                  font-family: "Bungee", sans-serif;
+                  font-weight: 400;
+                  font-style: normal;
+
+}
+
+/*fonts*/
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* icons*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
